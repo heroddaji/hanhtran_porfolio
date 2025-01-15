@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hanh Tran Financial Analyst Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#photos">VI</a></li>
-                <li><a href="#about">EN</a></li>
+                <li><a href="#" id="vi-link">VI</a></li>
+                <li><a href="#" id="en-link">EN</a></li>
             </ul>
         </nav>
-    </header>
+    </header> 
 
     <section id="photos">
         <div>
@@ -26,20 +26,20 @@
             <img class="profile-image"
                 src="https://media.licdn.com/dms/image/v2/C5603AQGV0f7DOlqxzw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1548894719970?e=1742428800&v=beta&t=QXrcgHoG1H2VTD_WbDIAqo3yyhi4HVJU8PBwkyt1MXU"
                 alt="Financial Modeler" />
-        </div>
-    </section>
-
-    <section id="about">
-        <h1>Hanh Tran</h1>
-        <h3>Senior Financial Analyst at Challenger Ltd, MA
+        </div>   
+    </section> 
+ 
+    <section id="about"> 
+        <h1 id="name">Hanh Tran</h1>
+        <h3 id="title">Senior Financial Analyst at Challenger Ltd, MA
             <br>Anaplan Certified Solution Architect & Model Builder
             <br>CFA Level II Candidate
         </h3>
 
         <br>
 
-        <h2>About Me</h2>
-        <p>I have been experienced in building and auditing financial models and analysis, business intelligent, M&A due
+        <h2 id="about-title">About Me</h2>
+        <p id="about-text">I have been experienced in building and auditing financial models and analysis, business intelligent, M&A due
             diligence and corporate strategy.
             I am an advanced Excel user, proficient in Power Query, Power BI, and a Certified Anaplan Model Builder &
             Certified Anaplan Solution Architect.
@@ -48,75 +48,80 @@
     </section>
 
     <section id="experience">
-        <h2>Experience</h2>
+        <h2 id="experience-title">Experience</h2>
 
         <div class="card">
-            <div class="card-text">
-                <h3>Financial Modelling Trainer </h3>
-                <h5>EdooSmart · Freelance</h6>
-                    <h6>
-                        Jan 2023 - Present
-                        <br>
-                        Sydney, New South Wales, Australia · Remote
-                    </h6>
-                    <ul>
-                        <li>Workshops on Financial Modelling</li>
-                        <li>Financial Modelling online and video course</li>
-            </div>
             <div class="card-icon">
                 <img src="https://media.licdn.com/dms/image/v2/D560BAQFH5Ig2Mxo4gg/company-logo_100_100/company-logo_100_100/0/1691651655670/edoosmart_logo?e=1744848000&v=beta&t=BNQKUQs8WdaWxOb1SkzBYTH6bnjkLAIOwFlXBSJJh-A"
                     alt="Icon 1">
+            </div> 
+
+            <div class="card-text">
+                <h3 id="job-title-1">Financial Modelling Trainer</h3>
+                <h5 id="job-company-1">EdooSmart · Freelance - Sydney, 2023 - Present</h5>
+                <ul id="job-description-1">
+                    <li>Workshops on Financial Modelling</li>
+                    <li>Financial Modelling online and video course</li>
+                </ul>
+
+                <b id="teaching-course">Teaching course:</b> <a href="https://edoosmart.com/financial-modelling/">Financial Modelling</a>
             </div>
         </div>
 
         <div class="card">
-            <div class="card-text">
-                <h3>Financial Consultant at ABC Ltd</h3>
-                <p>Conducted a workshop on financial modeling best practices.</p>
-            </div>
             <div class="card-icon">
                 <img src="https://media.licdn.com/dms/image/v2/D560BAQFDXEs7F6xTcw/company-logo_100_100/company-logo_100_100/0/1709504677497/challenger_limited_logo?e=1744848000&v=beta&t=Ump8QPxOB9JAQs4WrN1UDhVNVFKQgR5VbqPWgzUeE10"
                     alt="Icon 2">
             </div>
+            <div class="card-text">
+                <h3>Senior Financial Analyst - Life Business Performance</h3>
+                <h5>Challenger Limited - Sydney, 2021 - Present</h5>
+                <ul>
+                    <li>Responsible for the detailed analysis and financial modelling of the Balance Sheet and P&L of the Life Company and Group </li>
+                    <li>Performing and maintaining financial models on Anaplan platform</li>
+                    <li>Preparation of investment asset analysis, funding and margin analysis, responses on ad-hoc requests</li>
+                    <li>Main deliverables: Life Company & Group Budget model, Bank model, APRA Stress Testing model, ICAAP model</li>
+                </ul>
+            </div>
         </div>
 
         <div class="card">
-            <div class="card-text">
-                <h3>Junior Financial Analyst at DEF Inc</h3>
-                <p>Published an article on financial forecasting techniques.</p>
-            </div>
             <div class="card-icon">
                 <img src="https://media.licdn.com/dms/image/v2/C4D0BAQFQlug0EaEV5g/company-logo_100_100/company-logo_100_100/0/1631310934244?e=1744848000&v=beta&t=VLvV0DpG1gYW6_upI5H4UDGTZrTdSeWZJquLjua2ewA"
                     alt="Icon 3">
             </div>
-        </div>
-
-        <div class="card">
             <div class="card-text">
                 <h3>Junior Financial Analyst at DEF Inc</h3>
                 <p>Published an article on financial forecasting techniques.</p>
             </div>
+        </div>
+
+        <div class="card">
             <div class="card-icon">
                 <img src="https://media.licdn.com/dms/image/v2/C4E0BAQFEHYhNZA9gOg/company-logo_100_100/company-logo_100_100/0/1630642402268/ecovis_afa_vietnam_logo?e=1744848000&v=beta&t=TdbOMSUUW0d1UWLwugzECI9sIfdLS9jSjmJM7Lp1Lvk"
                     alt="Icon 4">
             </div>
-        </div>
-
-        <div class="card">
             <div class="card-text">
                 <h3>Junior Financial Analyst at DEF Inc</h3>
                 <p>Published an article on financial forecasting techniques.</p>
             </div>
+        </div>
+
+        <div class="card">
             <div class="card-icon">
                 <img src="https://media.licdn.com/dms/image/v2/D4E0BAQEhH3NsArIFWw/company-logo_100_100/company-logo_100_100/0/1687151684439/cmcrc_logo?e=1744848000&v=beta&t=_ErwT0nCCrfv_cBKmd4B-mkTFOdbEeZAULt4XCI1Hyw"
                     alt="Icon 5">
+            </div>
+            <div class="card-text">
+                <h3>Junior Financial Analyst at DEF Inc</h3>
+                <p>Published an article on financial forecasting techniques.</p>
             </div>
         </div>
     </section>
 
     <footer id="contact">
         <h2>Contact</h2>
-        <p>If you would like to get in touch, please reach out via email at johndoe@example.com.</p>
+        <p>If you would like to get in touch, please reach out via email at tuyethanh19@gmail.com</p>
     </footer>
 </body>
 
