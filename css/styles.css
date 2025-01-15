@@ -91,26 +91,7 @@ footer h2 {
     font-size: 20px;
 }
 
-@media (max-width: 600px) {
-    header {
-        padding: 15px 0;
-    }
-
-    section {
-        margin: 10px;
-        padding: 15px;
-    }
-
-    nav ul {
-        flex-direction: row;
-    }
-
-    nav ul li {
-        margin: 10px 10px;
-    }
-}
-
-/* for exp card */
+/* for card */
 .card {
     display: flex;
     justify-content: space-between;
@@ -137,3 +118,47 @@ footer h2 {
     width: 100%;
     height: auto;
 }
+
+@media (max-width: 600px) {
+    header {
+        padding: 15px 0;
+    }
+
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav ul li {
+        margin: 10px 10px;
+    }
+
+    .profile-image {
+        width: 150px;
+        height: 150px;
+        top: 30px;
+    }
+
+    #about {
+        margin-top: -110px; 
+    }
+
+    .card {
+        flex-direction: column; 
+        align-items: normal; 
+    }
+
+    .card-icon {
+        margin-right: 0px; 
+        margin-bottom: 20px;
+    }
+
+    .card-text h3 {
+        margin: 0;
+    }
+}
+
