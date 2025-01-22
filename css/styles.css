@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background: #f18f4d;
+    background: #edb088;
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
@@ -81,7 +81,7 @@ h2 {
 footer {
     padding: 20px;
     text-align: center;
-    background: #f18f4d;
+    background: #edb088;
     color: #ffffff;
     margin-top: 20px;
 }
