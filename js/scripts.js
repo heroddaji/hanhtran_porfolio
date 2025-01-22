@@ -1,9 +1,82 @@
 document.addEventListener('DOMContentLoaded', function() {
-    
+    const fonts = [
+        "Arial", "Arial Black", "Arial Narrow", "Arial Rounded MT Bold", "Avant Garde", 
+        "Bookman", "Brush Script MT", "Calibri", "Cambria", "Candara", 
+        "Century Gothic", "Century Schoolbook", "Comic Sans MS", "Consolas", "Courier", 
+        "Courier New", "Didot", "Franklin Gothic Medium", "Futura", "Garamond", 
+        "Geneva", "Georgia", "Gill Sans", "Helvetica", "Impact", "Lucida Bright", 
+        "Lucida Calligraphy", "Lucida Console", "Lucida Fax", "Lucida Handwriting", 
+        "Lucida Sans", "Lucida Sans Typewriter", "Lucida Sans Unicode", "Microsoft Sans Serif", 
+        "Monaco", "Monotype Corsiva", "MS Gothic", "MS PGothic", "MS Sans Serif", 
+        "MS Serif", "MT Extra", "MV Boli", "News Gothic MT", "Optima", "Palatino", 
+        "Palatino Linotype", "Perpetua", "Rockwell", "Segoe UI", "Tahoma", "Times", 
+        "Times New Roman", "Trebuchet MS", "Verdana", "Webdings", "Wingdings", 
+        "Wingdings 2", "Wingdings 3", "Abadi MT Condensed Light", "Academy Engraved LET", 
+        "Adobe Caslon Pro", "Adobe Garamond Pro", "Algerian", "American Typewriter", 
+        "Andale Mono", "Apple Chancery", "Apple Color Emoji", "Apple SD Gothic Neo", 
+        "Apple Symbols", "Arial Unicode MS", "Baskerville", "Bauhaus 93", "Bell MT", 
+        "Berlin Sans FB", "Bernard MT Condensed", "Bodoni MT", "Bodoni MT Black", 
+        "Bodoni MT Condensed", "Bodoni MT Poster Compressed", "Bradley Hand", 
+        "Britannic Bold", "Broadway", "Brush Script Std", "Calisto MT", "Castellar", 
+        "Centaur", "Chalkboard", "Chalkboard SE", "Chalkduster", "Charcoal CY", 
+        "Charter", "Cochin", "Colonna MT", "Constantia", "Cooper Black", "Copperplate", 
+        "Copperplate Gothic Bold", "Copperplate Gothic Light", "Corbel", "Corsiva Hebrew", 
+        "Curlz MT", "DecoType Naskh", "Devanagari MT", "Devanagari Sangam MN", 
+        "Didot LT STD", "DIN Alternate", "DIN Condensed", "Ebrima", "Edwardian Script ITC", 
+        "Elephant", "Engravers MT", "Eras Bold ITC", "Eras Demi ITC", "Eras Light ITC", 
+        "Eras Medium ITC", "EucrosiaUPC", "Felix Titling", "Footlight MT Light", 
+        "Forte", "Franklin Gothic Book", "Franklin Gothic Demi", "Franklin Gothic Demi Cond", 
+        "Franklin Gothic Heavy", "Franklin Gothic Medium Cond", "Freestyle Script", 
+        "French Script MT", "Futura Condensed Medium", "Gabriola", "Gadugi", 
+        "Garamond Premier Pro", "Gautami", "Georgia Pro", "Gigi", "Gill Sans MT", 
+        "Gill Sans MT Condensed", "Gill Sans Ultra Bold", "Gloucester MT Extra Condensed", 
+        "Goudy Old Style", "Goudy Stout", "Gujarati MT", "Gujarati Sangam MN", 
+        "Gungsuh", "GungsuhChe", "Haettenschweiler", "Harlow Solid Italic", 
+        "Harrington", "High Tower Text", "Hoefler Text", "Humanst521 BT", 
+        "Imprint MT Shadow", "Informal Roman", "Javanese Text", "Jokerman", 
+        "Juice ITC", "Kannada MN", "Kannada Sangam MN", "Kartika", "Kaufmann", 
+        "Khmer UI", "Kino MT", "Kokonor", "Kozuka Gothic Pro", "Kozuka Mincho Pro", 
+        "Kristen ITC", "Kunstler Script", "Lauren Script", "Leelawadee", 
+        "Letter Gothic Std", "LilyUPC", "Lithograph", "Lithograph Light", 
+        "Lucida Grande", "Magneto", "Maiandra GD", "Malayalam MN", "Malayalam Sangam MN", 
+        "Marlett", "Matura MT Script Capitals", "Meiryo", "Meiryo UI", "Menlo", 
+        "Microsoft Himalaya", "Microsoft JhengHei", "Microsoft New Tai Lue", 
+        "Microsoft PhagsPa", "Microsoft Tai Le", "Microsoft Uighur", "Microsoft YaHei", 
+        "Microsoft Yi Baiti", "MingLiU", "MingLiU_HKSCS", "MingLiU-ExtB", 
+        "MingLiU_HKSCS-ExtB", "Minion Pro", "Miriam", "Miriam Fixed", "Mistral", 
+        "Modern No. 20", "Mongolian Baiti", "Monospaced", "Mrs Eaves", "MS Gothic", 
+        "MS Mincho", "MS Outlook", "MS Reference Sans Serif", "MS Reference Specialty", 
+        "MT Symbol", "Myanmar MN", "Myanmar Sangam MN", "Nadeem", "New Peninim MT", 
+        "News Gothic", "Niagara Engraved", "Niagara Solid", "Noteworthy", 
+        "OCR A Extended", "Old English Text MT", "Onyx", "Oriya MN", "Oriya Sangam MN", 
+        "Osaka", "Papyrus", "Parchment", "Party LET", "Perpetua Titling MT", 
+        "Plantagenet Cherokee", "Playbill", "PMingLiU", "PMingLiU-ExtB", 
+        "Poor Richard", "Pristina", "Rage Italic", "Ravie", "Rockwell Extra Bold", 
+        "Rockwell Nova", "Rockwell Nova Cond", "Rockwell Nova Light", "Rod", 
+        "Sakkal Majalla", "Script MT Bold", "Segoe Print", "Segoe Script", 
+        "Showcard Gothic", "SimHei", "SimSun", "SimSun-ExtB", "Sitka", 
+        "Snell Roundhand", "Stencil", "Sylfaen", "Symbol", "Tahoma", "TeX", 
+        "Times", "Trattatello", "Tw Cen MT", "Tw Cen MT Condensed", "Tw Cen MT Condensed Extra Bold", 
+        "Verdana Pro", "Viner Hand ITC", "Vivaldi", "Vladimir Script", "Webdings", 
+        "Wide Latin", "Wingdings", "Wingdings 2", "Wingdings 3", "Yu Gothic", 
+        "Yu Gothic UI", "Zapf Chancery", "Zapf Dingbats", "Zapfino"
+    ];
+
     const fontSelect = document.getElementById('font-select');
+   
+    // Populate the dropdown with fonts
+    fonts.forEach(font => {
+        const option = document.createElement('option');
+        option.value = font;
+        option.textContent = font;
+        fontSelect.appendChild(option);
+    });
     fontSelect.addEventListener('change', function() {
         document.body.style.fontFamily = fontSelect.value;
     });
+
+
+    // Language switcher
 
     const viLink = document.getElementById('vi-link');
     const enLink = document.getElementById('en-link');
