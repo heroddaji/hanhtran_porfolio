@@ -1,4 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
+    
+    const fontSelect = document.getElementById('font-select');
+    fontSelect.addEventListener('change', function() {
+        document.body.style.fontFamily = fontSelect.value;
+    });
+
     const viLink = document.getElementById('vi-link');
     const enLink = document.getElementById('en-link');
 
