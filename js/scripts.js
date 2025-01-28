@@ -232,3 +232,15 @@ document.addEventListener('DOMContentLoaded', function() {
     // Set default language to VI
     setLanguage('vi');
 });
+
+function toggleExperience() {
+    var moreExperience = document.getElementById("more-experience");
+    var seeMoreBtn = document.getElementById("see-more-btn");
+    if (moreExperience.style.display === "none") {
+        moreExperience.style.display = "block";
+        seeMoreBtn.textContent = "See Less";
+    } else {
+        moreExperience.style.display = "none";
+        seeMoreBtn.textContent = "See More";
+    }
+}

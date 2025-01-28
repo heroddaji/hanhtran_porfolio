@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanh Tran Financial Analyst Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav> 
+            <ul> 
+                <li><a href="#" id="vi-link">VI</a></li>
+                <li><a href="#" id="en-link">EN</a></li> 
+            </ul>
+        </nav>
+        <select id="font-select"> </select>
+    </header> 
+
+    <section id="photos">        
+        <div>
+            <img class="background-image"
+                src="https://media.licdn.com/dms/image/v2/C5616AQHlD4xTFH505g/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1635324471325?e=1742428800&v=beta&t=elwmhz0whNJqUoRpQLnoTAA0jb41u2bhwiACPc7xdyo"
+                alt="Background Image" />
+            <img class="profile-image"
+                src="https://media.licdn.com/dms/image/v2/C5603AQGV0f7DOlqxzw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1548894719970?e=1742428800&v=beta&t=QXrcgHoG1H2VTD_WbDIAqo3yyhi4HVJU8PBwkyt1MXU"
+                alt="Financial Modeler" />
+        </div> 
+    </section> 
+    <section id="about"> 
+        <h1 id="name"></h1>
+        <h3 id="title"></h3>   
+
+        <br>
+
+        <h2 id="about-title"></h2>  
+        <p id="about-text"></p>   
+    </section> 
+
+    <section id="activities">  
+        <h2 id="activities-title"></h2> 
+        <div class="card"> 
+            <div class="card-icon"> 
+                <img
+                    src="data:image/png;base64,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">
+            </div>
+
+            <div class="card-text">  
+                <ul>
+                    <li><a href="https://edoosmart.com/financial-modelling/">Financial Modelling course</a></li>
+                </ul>
+                <ul id="activities-description"></ul>
+            </div>  
+        </div>
+    </section>
+
+    <section id="experience">  
+        <h2 id="experience-title"></h2>   
+ 
+        <div class="card">
+            <div class="card-icon">
+                <img src="https://media.licdn.com/dms/image/v2/D560BAQFH5Ig2Mxo4gg/company-logo_100_100/company-logo_100_100/0/1691651655670/edoosmart_logo?e=1744848000&v=beta&t=BNQKUQs8WdaWxOb1SkzBYTH6bnjkLAIOwFlXBSJJh-A"
+                    alt="Icon 1">
+            </div> 
+ 
+            <div class="card-text">    
+                <h3 id="job-title-1"></h3>  
+                <h4 id="job-company-1"></h4>
+                <ul id="job-description-1"></ul>   
+            </div>
+        </div>
+
+        <div class="card">  
+            <div class="card-icon">  
+                <img src="https://media.licdn.com/dms/image/v2/D560BAQFDXEs7F6xTcw/company-logo_100_100/company-logo_100_100/0/1709504677497/challenger_limited_logo?e=1744848000&v=beta&t=Ump8QPxOB9JAQs4WrN1UDhVNVFKQgR5VbqPWgzUeE10"
+                    alt="Icon 2">
+            </div>
+            <div class="card-text"> 
+                <h3 id="job-title-2"></h3>
+                <h4 id="job-company-2"></h4>
+                <ul id="job-description-2"></ul>  
+            </div>
+        </div>
+
+        <div class="card"> 
+            <div class="card-icon"> 
+                <img src="https://media.licdn.com/dms/image/v2/C4D0BAQFQlug0EaEV5g/company-logo_100_100/company-logo_100_100/0/1631310934244?e=1744848000&v=beta&t=VLvV0DpG1gYW6_upI5H4UDGTZrTdSeWZJquLjua2ewA"
+                    alt="Icon 3">
+            </div>
+            <div class="card-text">
+                <h3 id="job-title-3"></h3>
+                <h4 id="job-company-3"></h4>
+                <ul id="job-description-3"></ul> 
+            </div> 
+        </div>
+ 
+        <div class="card">
+            <div class="card-icon">
+                <img src="https://media.licdn.com/dms/image/v2/C4E0BAQFEHYhNZA9gOg/company-logo_100_100/company-logo_100_100/0/1630642402268/ecovis_afa_vietnam_logo?e=1744848000&v=beta&t=TdbOMSUUW0d1UWLwugzECI9sIfdLS9jSjmJM7Lp1Lvk"
+                    alt="Icon 4">
+            </div>
+            <div class="card-text"> 
+                <h3 id="job-title-4"></h3>
+                <h4 id="job-company-4"></h4>
+                <ul id="job-description-4"></ul>   
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-icon">
+                <img src="https://media.licdn.com/dms/image/v2/D4E0BAQEhH3NsArIFWw/company-logo_100_100/company-logo_100_100/0/1687151684439/cmcrc_logo?e=1744848000&v=beta&t=_ErwT0nCCrfv_cBKmd4B-mkTFOdbEeZAULt4XCI1Hyw">
+            </div>
+            <div class="card-text">
+                <h3 id="job-title-5"></h3>
+                <h4 id="job-company-5"></h4>
+                <ul id="job-description-5"></ul> 
+                </ul>   
+            </div>  
+        </div>
+
+        <div class="card">
+            <div class="card-icon"> 
+                <img src="https://media.licdn.com/dms/image/v2/C510BAQEvO84lc3RYPg/company-logo_100_100/company-logo_100_100/0/1631386939502?e=1745452800&v=beta&t=jcAr-2UlN4BFLinHdkawwlkGV3dnUsd91ob-lBtUDPo">
+            </div>
+            <div class="card-text">
+                <h3 id="job-title-6"></h3>
+                <h4 id="job-company-6"></h4>
+                <ul id="job-description-6"></ul> 
+                </ul>   
+            </div>  
+        </div>
+
+        <div class="card">
+            <div class="card-icon">
+                <img src="https://media.licdn.com/dms/image/v2/D560BAQECOxU7SpsJCg/company-logo_100_100/company-logo_100_100/0/1691727151576/vietnam_bank_for_agriculture_and_rural_development_logo?e=1745452800&v=beta&t=wyooPUXlrmZVUmBqxOOozesOKQ6LUy48OLvsM4aLziA">
+            </div>
+            <div class="card-text">
+                <h3 id="job-title-7"></h3>
+                <h4 id="job-company-7"></h4>
+                <ul id="job-description-7"></ul>   
+                </ul>   
+            </div>  
+        </div>
+
+    </section>
+
+    <section id="education">
+        <h2 id="education-title"></h2>
+
+        <div class="card">
+            <div class="card-icon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Cfa-institute-logo.svg/768px-Cfa-institute-logo.svg.png?20201124173558"
+                    alt="Icon 5">
+            </div>
+            <div class="card-text"> 
+                <h3 id="edu-title-1"></h3>
+                <h4 id="edu-school-1"></h4>
+                <ul id="edu-description-1"></ul>  
+                    </ul>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-icon">
+                <img
+                    src="https://media.licdn.com/dms/image/v2/C510BAQGLh8A-ZO9ySw/company-logo_100_100/company-logo_100_100/0/1631398531626/_logo?e=1744848000&v=beta&t=wodbhmsqwe8fy8GRMLYUqvMq2rbbpXGfQGfJQ2URvoU">
+            </div>
+            <div class="card-text">
+                <h3 id="edu-title-2"></h3>
+                <h4 id="edu-school-2"></h4> 
+                <ul id="edu-description-2"></ul>  
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-icon">
+                <img
+                    src="https://media.licdn.com/dms/image/v2/C560BAQFocXetrX0-4g/company-logo_100_100/company-logo_100_100/0/1631352718117?e=1745452800&v=beta&t=9aXCGKToLQeMQCjndsf7KiQhpRc36mWqBRUjy-zvjfc">
+            </div>
+            <div class="card-text">
+                <h3 id="edu-title-3"></h3>
+                <h4 id="edu-school-3"></h4>
+                <ul id="edu-description-3"></ul> 
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-icon">
+                <img
+                    src="https://media.licdn.com/dms/image/v2/C560BAQFS_KQPFBobdQ/company-logo_100_100/company-logo_100_100/0/1630566369480?e=1745452800&v=beta&t=gCqlHfkTRrf7IXI0JYKgVCOZHJ5-LKEOFLNyTkQaIYY">
+            </div>
+            <div class="card-text">
+                <h3 id="edu-title-4"></h3>
+                <h4 id="edu-school-4"></h4>
+                <ul id="edu-description-4"></ul>   
+                </ul>
+
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+    <footer>
+        <h3 id="contact"></h3>
+        <p id="contact-description"></p>   
+    </footer>
+</body>
+
+</html>
