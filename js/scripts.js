@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Language switcher
     const viLink = document.getElementById('vi-link');
     const enLink = document.getElementById('en-link');
@@ -47,7 +47,8 @@ document.addEventListener('DOMContentLoaded', function() {
             eduSchool4: 'Trường Trung học Phổ thông Chuyên Lê Quý Đôn, Đà Nẵng, Việt Nam, 2006 - 2009',
             eduDescription4: '',
             contact: 'Liên Hệ',
-            contactDescription: 'Vui lòng liên hệ hợp tác với tôi qua email: tuyethanh19@gmail.com',
+            contactDescription: 'Vui lòng liên hệ hợp tác với tôi qua email: <a href="mailto:tuyethanh19@gmail.com">tuyethanh19@gmail.com</a>',
+            fmCourse: 'Khoá học Mô hình Tài chính',
         },
         en: {
             name: 'Hanh Tran',
@@ -92,8 +93,8 @@ document.addEventListener('DOMContentLoaded', function() {
             eduSchool4: 'Le Quy Don High School for the Gifted, Da Nang, Viet Nam, 2006 - 2009',
             eduDescription4: '',
             contact: 'Contact',
-            contactDescription: 'If you would like to get in touch, please reach out via email at tuyethanh19@gmail.com',
-            
+            contactDescription: 'If you would like to get in touch, please reach out via email at <a href="mailto:tuyethanh19@gmail.com">tuyethanh19@gmail.com</a>',
+            fmCourse: 'Financial Modelling course',
         }
     };
 
@@ -141,13 +142,14 @@ document.addEventListener('DOMContentLoaded', function() {
         // document.getElementById('edu-description-4').innerHTML = content[lang].eduDescription4;
         document.getElementById('contact').innerHTML = content[lang].contact;
         document.getElementById('contact-description').innerHTML = content[lang].contactDescription;
-            }
+        document.getElementById('fm-course').innerHTML = content[lang].fmCourse;
+    }
 
-    viLink.addEventListener('click', function() {
+    viLink.addEventListener('click', function () {
         setLanguage('vi');
     });
 
-    enLink.addEventListener('click', function() {
+    enLink.addEventListener('click', function () {
         setLanguage('en');
     });
 
