@@ -10,8 +10,9 @@ body {
 }
 
 .logo {
-    width: 100%;
-    max-width: 100px;
+    width: 70px;
+    height: 70px;
+    object-fit: cover; 
 }
 
 .container {
@@ -128,7 +129,7 @@ body {
         top: 30px;
     }
 
-    .profile-info {
+    .profile-info { 
         margin-top: -50px;
     }
 }
