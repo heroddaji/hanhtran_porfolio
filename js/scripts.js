@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', function () {
             aboutText: 'Tôi có 10 năm kinh nghiệm trong việc xây dựng và kiểm tra các mô hình tài chính và báo cáo phân tích tài chính, báo cáo kinh doanh, thẩm định M&A và chiến lược công ty.<br> Tôi thành thạo Excel nâng cao, Power Query, Power BI, và là Nhà xây dựng mô hình & Kiến trúc Giải pháp Anaplan được chứng nhận (Anaplan Certified Solution Architect). <br>Bên cạnh công việc chuyên môn chính, tôi còn tổ chức các buổi hội thảo và giảng dạy các khoá học, chương trình liên quan đến bộ môn Mô hình Tài chính và Lập kế hoạch tài chính trong doanh nghiệp. <br>Có thể làm việc độc lập hoặc cùng nhóm, có động lực cao và tinh thần tích cực, với tư duy phản biện và chú ý đến chi tiết là những gì mô tả tốt nhất về tôi.',
             activitiesTitle: 'Khoá học và Webinar',
             activitiesDescription: '<li>1/2023: Webinar về Mô hình Tài chính - Financial Modelling - Kết hợp cùng EdooSmart</li><li>12/2020: Workshop Những mẹo dùng Excel hiệu quả cho nghề tài chính</li><li>7/2020: CPA Australia Webinar - Survey and Dashboard</li><li>6/2020: CPA Australia Webinar - Improving Excel and Power BI for finance professionals</li>',
+           // projectTitle: 'Courses and Webinars',
+           // projectDescription: '<li>1/2023: Financial Modelling Workshop</li><li>12/2020: How to use Excel like a Pro and Earn a Living</li><li>7/2020: CPA Australia Webinar - Survey and Dashboard</li><li>6/2020: CPA Australia Webinar - Improving Excel and Power BI for finance professionals</li>',
             experienceTitle: 'Kinh nghiệm',
             jobTitle1: 'Giảng viên Môn Mô hình Tài chính (Financial Modelling)',
             jobCompany1: 'EdooSmart · Sydney, Úc, 2023 - nay',
@@ -20,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
             jobDescription2: '<li>Chịu trách nhiệm lập mô hình tài chính và các báo cáo tài chính chi tiết cho Life Company (Công ty con) và Tập đoàn, hỗ trợ CFO (Giám đốc Tài chính) và Ban Lãnh đạo trong việc ra các quyết định chiến lược</li><li>Quản lý các mô hình tài chính của tập đoàn trên nền tảng Anaplan: Life Company, Ngân hàng (Challenger Bank), Công ty Quản lý quỹ (Fund Management & Boutique), Tập đoàn (Group)</li>',
             jobTitle3: 'Chuyên viên Cao cấp',
             jobCompany3: 'SumProduct · Sydney, Úc, 2019 - 2021',
-            jobDescription3: '<li>Tư vấn phát triển và kiểm tra các mô hình tài chính: mô hình dự toán, tài chính doanh nghiệp, mô hình định giá; làm việc trực tiếp với các khách hàng doanh nghiệp để đảm bảo chất lượng sản phẩm cao; sử dụng các công cụ Excel nâng cao, Power Pivot, Power Query, Power BI<li>Đóng góp viết bài cho chuỗi blog Charts and Dashboards, các bài viết chuyên môn về Power BI, Power Pivot trên trang web công ty</li>',
+            jobDescription3: '<li>Tư vấn phát triển và kiểm tra các mô hình tài chính: mô hình dự toán, tài chính doanh nghiệp, mô hình định giá; làm việc trực tiếp với các khách hàng doanh nghiệp để đảm bảo chất lượng sản phẩm cao; sử dụng các công cụ Excel nâng cao, Power Pivot, Power Query, Power BI<li>Các dự án mô hình tài chính đã thực hiện: Trang trại nuôi gà và trứng tại bang New South Wales, Đường hầm Sydney, Trường Đại học tại Melbourne, Công ty Giáo dục Quốc tế tại Melbourne, Trung tâm Hỗ trợ Bảo hiểm Quốc gia Úc (NDIS) tại Queensland, Quỹ đầu tư Tư nhân tại Sydney, Ngân hàng địa phương tại bang New South Wales, etc.<li>Đóng góp viết bài cho chuỗi blog Charts and Dashboards, các bài viết chuyên môn về Power BI, Power Pivot trên trang web công ty</li>',
             jobTitle4: 'Tư vấn',
             jobCompany4: 'Ecovis AFA Viet Nam, 2017 - 2021',
             jobDescription4: '<li>Tư vấn các dự án hợp tác chiến lược với đối tác nước ngoài</li>',
@@ -57,6 +59,8 @@ document.addEventListener('DOMContentLoaded', function () {
             aboutText: 'I have 10-year experience in building and auditing financial models and analysis, business intelligent, M&A due diligence and corporate strategy. <br>I am an advanced Excel user, proficient in Power Query, Power BI, and a Certified Anaplan Model Builder & Certified Anaplan Solution Architect. Beside my daywork, I am passionate in sharing and training in financial modelling and spreadsheet skills, conducting webinars and collaborating in training courses.<br>A motivated independent person yet a good team player, highly critical mind with a can-do attitude and an eye for details are what best to describe me.',
             activitiesTitle: 'Courses and Webinars',
             activitiesDescription: '<li>1/2023: Financial Modelling Workshop</li><li>12/2020: How to use Excel like a Pro and Earn a Living</li><li>7/2020: CPA Australia Webinar - Survey and Dashboard</li><li>6/2020: CPA Australia Webinar - Improving Excel and Power BI for finance professionals</li>',
+            //projectTitle: 'Courses and Webinars',
+            //projectDescription: '<li>1/2023: Financial Modelling Workshop</li><li>12/2020: How to use Excel like a Pro and Earn a Living</li><li>7/2020: CPA Australia Webinar - Survey and Dashboard</li><li>6/2020: CPA Australia Webinar - Improving Excel and Power BI for finance professionals</li>',
             experienceTitle: 'Experience',
             jobTitle1: 'Financial Modelling Trainer',
             jobCompany1: 'EdooSmart · Sydney, Australia, 2023 - Present',
@@ -66,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function () {
             jobDescription2: '<li>Responsible for the detailed analysis and financial modelling of the Balance Sheet and P&L of the Life Company, Group and Projects </li><li>Performing and maintaining group financial models on Anaplan platform</li><li>Preparation of investment asset analysis, funding and margin analysis, responses on ad-hoc requests</li>',
             jobTitle3: 'Senior Analyst',
             jobCompany3: 'SumProduct · Sydney, Australia, 2019 - 2021',
-            jobDescription3: '<li>Developed and audit financial models (budgeting, corporate finance, valuations); closely liasing with clients to ensure high-quality outputs; using Advanced Excel, Power Pivot, Power Query, Power BI<li>Hosted the Charts and Dashboards blog series, contributed to the Power BI, Power Pivot blog series</li>',
+            jobDescription3: '<li>Developed and audit financial models (budgeting, corporate finance, valuations); closely liasing with clients to ensure high-quality outputs; using Advanced Excel, Power Pivot, Power Query, Power BI<li>Financial Modelling projects: Pastoral farm in New South Wales, Sydney tunnel, University in Melbourne, International Education company in Melbourne, NDIS Supported Service Centre in Queensland, Private Equity fund in Sydney, Local bank in New South Wales, etc.<li>Hosted the Charts and Dashboards blog series, contributed to the Power BI, Power Pivot blog series</li>',
             jobTitle4: 'Advisor',
             jobCompany4: 'Ecovis AFA Viet Nam, 2017 - 2021',
             jobDescription4: '<li>Project due-diligence, financial model and report review.</li><li>Advisory on external relations and business development strategy with foreign-related parties.',
@@ -105,6 +109,8 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('about-text').innerHTML = content[lang].aboutText;
         document.getElementById('activities-title').innerHTML = content[lang].activitiesTitle;
         document.getElementById('activities-description').innerHTML = content[lang].activitiesDescription;
+        //document.getElementById('project-title').innerHTML = content[lang].projectTitle;
+        //document.getElementById('project-description').innerHTML = content[lang].projectDescription;
         document.getElementById('experience-title').innerHTML = content[lang].experienceTitle;
         document.getElementById('job-title-1').innerHTML = content[lang].jobTitle1;
         document.getElementById('job-company-1').innerHTML = content[lang].jobCompany1;
@@ -130,7 +136,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('education-title').innerHTML = content[lang].educationTitle;
         document.getElementById('edu-title-1').innerHTML = content[lang].eduTitle1;
         document.getElementById('edu-school-1').innerHTML = content[lang].eduSchool1;
-        // document.getElementById('edu-description-1').innerHTML = content[lang].eduDescription1;
+        //document.getElementById('edu-description-1').innerHTML = content[lang].eduDescription1;
         document.getElementById('edu-title-2').innerHTML = content[lang].eduTitle2;
         document.getElementById('edu-school-2').innerHTML = content[lang].eduSchool2;
         // document.getElementById('edu-description-2').innerHTML = content[lang].eduDescription2;
