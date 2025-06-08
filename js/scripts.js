@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const content = {
         vi: {
             name: 'Hạnh Trần',
-            title: 'Chuyên viên Tài chính Cao cấp tại Tập đoàn Đầu tư Challenger Group Ltd, Australia<br>Anaplan Certified Solution Architect & Model Builder<br>Ứng viên CFA Level II<br>Thạc sĩ Kinh Doanh Quốc Tế',
+            title: 'Chuyên viên Tài chính Cao cấp tại Tập đoàn Đầu tư Challenger Group Ltd, Australia<br>Certified Master Anaplanner<br>Ứng viên CFA Level II<br>Thạc sĩ Kinh Doanh Quốc Tế',
             aboutTitle: 'Về tôi',
             aboutText: 'Tôi có 10 năm kinh nghiệm trong việc xây dựng và kiểm tra các mô hình tài chính và báo cáo phân tích tài chính, báo cáo kinh doanh, thẩm định M&A và chiến lược công ty.<br> Tôi thành thạo Excel nâng cao, Power Query, Power BI, và là Nhà xây dựng mô hình & Kiến trúc Giải pháp Anaplan được chứng nhận (Anaplan Certified Solution Architect). <br>Bên cạnh công việc chuyên môn chính, tôi còn tổ chức các buổi hội thảo và giảng dạy các khoá học, chương trình liên quan đến bộ môn Mô hình Tài chính và Lập kế hoạch tài chính trong doanh nghiệp. <br>Có thể làm việc độc lập hoặc cùng nhóm, có động lực cao và tinh thần tích cực, với tư duy phản biện và chú ý đến chi tiết là những gì mô tả tốt nhất về tôi.',
             activitiesTitle: 'Khoá học và Webinar',
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         en: {
             name: 'Hanh Tran',
-            title: 'Senior Financial Analyst at Challenger Group Ltd<br>Anaplan Certified Solution Architect & Model Builder<br>CFA Level II Candidate<br>Master of Arts in International Business',
+            title: 'Senior Financial Analyst at Challenger Group Ltd<br>Certified Master Anaplanner<br>CFA Level II Candidate<br>Master of Arts in International Business',
             aboutTitle: 'About Me',
             aboutText: 'I have 10-year experience in building and auditing financial models and analysis, business intelligent, M&A due diligence and corporate strategy. <br>I am an advanced Excel user, proficient in Power Query, Power BI, and a Certified Anaplan Model Builder & Certified Anaplan Solution Architect. Beside my daywork, I am passionate in sharing and training in financial modelling and spreadsheet skills, conducting webinars and collaborating in training courses.<br>A motivated independent person yet a good team player, highly critical mind with a can-do attitude and an eye for details are what best to describe me.',
             activitiesTitle: 'Courses and Webinars',
