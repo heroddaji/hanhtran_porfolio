@@ -1,147 +1,204 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
 }
 
 body {
-    background-color: #f3f6f8;
+  background-color: #f3f6f8;
 }
 
 .logo {
-    width: 70px;
-    height: 70px;
-    object-fit: cover; 
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.logo-medium {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
 }
 
 .logo-course {
-    width: 100%;
-    max-width: 200px;
-    object-fit: cover;
+  width: 100%;
+  max-width: 200px;
+  object-fit: cover;
 }
 
 .container {
-    max-width: 1128px;
-    margin: 0 auto;
+  max-width: 1128px;
+  margin: 0 auto;
 }
 
 /* Cover Photo Section */
 .background-image {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .profile-image {
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
-    border: 5px solid #ffffff;
-    position: relative;
-    top: 0px;
-    left: 0%;
-    transform: translate(15%, -70%);
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  position: relative;
+  top: 0px;
+  left: 0%;
+  transform: translate(15%, -70%);
 }
 
 /* Profile Info Section */
 #cover-photo {
-    position: relative;
+  position: relative;
 }
 
 .profile-info {
-    padding: 0 24px 24px;
-    position: relative;
-    margin-top: -130px;
+  padding: 0 24px 24px;
+  position: relative;
+  margin-top: -130px;
 }
 
 .profile-btns {
-    margin-top: 8px;
+  margin-top: 8px;
 }
 
 .name {
-    font-size: 32px;
-    font-weight: 600;
-    margin-top: 16px;
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 16px;
 }
 
 .title {
-    font-size: 20px;
-    color: #666;
-    margin: 8px 0;
+  font-size: 20px;
+  color: #666;
+  margin: 8px 0;
 }
 
 .location {
-    color: #666;
-    margin-bottom: 16px;
+  color: #666;
+  margin-bottom: 16px;
 }
 
 /* Connect Button */
 .connect-btn {
-    background-color: #0A66C2;
-    color: white;
-    border: none;
-    padding: 8px 24px;
-    border-radius: 24px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
+  background-color: #0a66c2;
+  color: white;
+  border: none;
+  padding: 8px 24px;
+  border-radius: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 /* Sections Styling */
 .section-card {
-    background-color: white;
-    border-radius: 8px;
-    padding: 24px;
-    margin: 16px 0;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  background-color: white;
+  border-radius: 8px;
+  padding: 24px;
+  margin: 16px 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .section-title {
-    font-size: 25px;
-    font-weight: 600;
-    margin-bottom: 16px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 16px;
 }
 
 /* Experience Section */
 .experience-item {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .company {
-    font-weight: 600;
-    margin-bottom: 4px;
+  font-weight: 600;
+  margin-bottom: 4px;
 }
 
 .duration {
-    color: #666;
-    font-size: 14px;
-    margin-bottom: 8px;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 8px;
 }
 
 /* Skills Section */
 .skill-tag {
-    display: inline-block;
-    background-color: #e3e5e8;
-    padding: 8px 16px;
-    border-radius: 24px;
-    margin: 4px;
-    font-size: 16px;
+  display: inline-block;
+  background-color: #e3e5e8;
+  padding: 8px 16px;
+  border-radius: 24px;
+  margin: 4px;
+  font-size: 16px;
 }
 
 @media (max-width: 600px) {
-    .profile-image {
-        width: 150px;
-        height: 150px;
-        top: 30px;
-    }
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    top: 30px;
+  }
 
-    .profile-info { 
-        margin-top: -50px;
-    }
+  .profile-info {
+    margin-top: -50px;
+  }
 
-    .logo {
-        width: 40px;
-        height: 40px;
-        object-fit: cover; 
-    }
+  .logo {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+}
+
+/* Gallery Section */
+.gallery {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping on small screens */
+  gap: 30px; /* Space between images (adjust as needed) */
+  justify-content: center; /* Centers the images horizontally */
+  padding: 20px;
+}
+
+.gallery img {
+  max-width: 400px; /* Adjust max size as needed */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Fullscreen modal */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0; /* Covers entire screen */
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal img {
+  max-width: 95vw;
+  max-height: 95vh;
+  border-radius: 8px;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
 }
