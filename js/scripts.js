@@ -228,7 +228,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Set default language to VI
-  setLanguage("vi");
+  setLanguage("en");
 });
 
 function toggleExperience() {
