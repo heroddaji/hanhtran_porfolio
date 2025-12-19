@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", function () {
     vi: {
       name: "Hạnh Trần",
       title:
-        "Chuyên viên Tài chính Cao cấp tại Văn phòng CFO - Challenger Group Australia<br>Certified Master Anaplanner<br>Ứng viên CFA Level II<br>Thạc sĩ Kinh Doanh Quốc Tế",
+        "Chuyên viên Tài chính Cao cấp tại Văn phòng CFO - Challenger Group Australia<br>Certified Master Anaplanner<br>Microsoft Office Specialist Excel Expert<br>Ứng viên CFA Level II<br>Thạc sĩ Kinh Doanh Quốc Tế",
       aboutTitle: "Về tôi",
       aboutText:
-        "Tôi có 10 năm kinh nghiệm trong việc xây dựng và kiểm tra các mô hình tài chính và báo cáo phân tích tài chính, báo cáo kinh doanh, thẩm định M&A và chiến lược công ty.<br> Tôi thành thạo Excel nâng cao, Power Query, Power BI, và là Nhà xây dựng mô hình & Kiến trúc Giải pháp Anaplan được chứng nhận (Anaplan Certified Solution Architect). <br>Bên cạnh công việc chuyên môn chính, tôi còn tổ chức các buổi hội thảo và giảng dạy các khoá học, chương trình liên quan đến bộ môn Mô hình Tài chính và Lập kế hoạch tài chính trong doanh nghiệp. <br>Có thể làm việc độc lập hoặc cùng nhóm, có động lực cao và tinh thần tích cực, với tư duy phản biện và chú ý đến chi tiết là những gì mô tả tốt nhất về tôi.",
+        "Tôi có 10 năm kinh nghiệm trong việc xây dựng và kiểm tra các mô hình tài chính và báo cáo phân tích tài chính, báo cáo kinh doanh, mô hình định giá bảo hiểm và quản lý quỹ, thẩm định M&A và chiến lược công ty.<br> Tôi thành thạo Excel nâng cao, Power Query, Power BI, và là Microsoft Excel Expert và Master Anaplanner được công nhận. <br>Bên cạnh công việc chuyên môn chính, tôi còn tổ chức các buổi hội thảo và giảng dạy các khoá học, chương trình liên quan đến bộ môn Mô hình Tài chính và Lập kế hoạch tài chính và Excel trong doanh nghiệp. <br>Có thể làm việc độc lập hoặc cùng nhóm, có động lực cao và tinh thần tích cực, với tư duy phản biện và chú ý đến chi tiết là những gì mô tả tốt nhất về tôi.",
       activitiesTitle: "Khoá học và Webinar",
       activitiesFmCourseDescription:
         "<li>1/2023: Webinar về Mô hình Tài chính - Financial Modelling - Kết hợp cùng EdooSmart</li><li>12/2020: Workshop Những mẹo dùng Excel hiệu quả cho nghề tài chính</li><li>7/2020: CPA Australia Webinar - Survey and Dashboard</li><li>6/2020: CPA Australia Webinar - Improving Excel and Power BI for finance professionals</li>",
@@ -76,10 +76,10 @@ document.addEventListener("DOMContentLoaded", function () {
     en: {
       name: "Hanh Tran",
       title:
-        "Senior Financial Analyst at CFO Office, Challenger Group Australia<br>Certified Master Anaplanner<br>CFA Level II Candidate<br>Master of Arts in International Business",
+        "Senior Financial Analyst at CFO Office, Challenger Group Australia<br>Certified Master Anaplanner<br>Microsoft Office Specialist Excel Expert<br>CFA Level II Candidate<br>Master of Arts in International Business",
       aboutTitle: "About Me",
       aboutText:
-        "I have 10-year experience in building and auditing financial models and analysis, business intelligent, M&A due diligence and corporate strategy. <br>I am an advanced Excel user, proficient in Power Query, Power BI, and a Certified Anaplan Model Builder & Certified Anaplan Solution Architect. Beside my daywork, I am passionate in sharing and training in financial modelling and spreadsheet skills, conducting webinars and collaborating in training courses.<br>A motivated independent person yet a good team player, highly critical mind with a can-do attitude and an eye for details are what best to describe me.",
+        "I have 10-year experience in building and auditing financial models and analysis, actuarial models and fund management models, business intelligent, M&A due diligence and corporate strategy. <br>I am an advanced Excel user, proficient in Power Query, Power BI, and a Microsoft Office Specialist Excel Expert and Certified Master Anaplanner.<br> Beside my daywork, I am passionate in sharing and training in financial modelling and spreadsheet skills, conducting webinars and collaborating in training courses.<br>A motivated independent person yet a good team player, highly critical mind with a can-do attitude and an eye for details are what best to describe me.",
       activitiesTitle: "Courses and Webinars",
       activitiesFmCourseDescription:
         "<li>1/2023: Financial Modelling Workshop</li><li>12/2020: How to use Excel like a Pro and Earn a Living</li><li>7/2020: CPA Australia Webinar - Survey and Dashboard</li><li>6/2020: CPA Australia Webinar - Improving Excel and Power BI for finance professionals</li>",
