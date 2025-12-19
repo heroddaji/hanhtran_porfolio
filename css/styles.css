@@ -22,6 +22,12 @@ body {
   object-fit: cover;
 }
 
+.logo-large {
+  width: 210px;
+  height: 210px;
+  object-fit: cover;
+}
+
 .logo-course {
   width: 100%;
   max-width: 200px;

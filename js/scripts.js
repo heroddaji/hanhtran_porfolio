@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
       jobTitle1: "Giảng viên Môn Mô hình Tài chính (Financial Modelling)",
       jobCompany1: "EdooSmart · Sydney, Úc, 2023 - nay",
       jobDescription1:
-        "<li>Tổ chức các hội thảo về lý thuyết và thực hành Mô hình Tài chính</li><li>Giảng dạy các khóa học trực tuyến về bộ môn Mô hình Tài chính</li>",
+        "<li>Tổ chức các hội thảo về lý thuyết và thực hành Mô hình Tài chính và Kỹ năng Excel</li><li>Giảng dạy các khóa học trực tuyến về bộ môn Mô hình Tài chính và Kỹ năng Excel cho nghề Tài chính</li>",
       jobTitle2: "Chuyên viên Tài chính Cao Cấp - Văn phòng CFO Tập đoàn",
       jobCompany2:
         "Tập đoàn Đầu tư Challenger Group Limited · Sydney, Úc, 2021 - nay",
@@ -71,6 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
       contactDescription:
         'Vui lòng liên hệ hợp tác với tôi qua email: <a href="mailto:tuyethanh19@gmail.com">tuyethanh19@gmail.com</a>',
       fmCourse: "Khoá học Mô hình Tài chính",
+      excelCourse: "Khoá học Excel MasterClass cho Chuyên viên Tài chính",
     },
     en: {
       name: "Hanh Tran",
@@ -90,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
       jobTitle1: "Financial Modelling Trainer",
       jobCompany1: "EdooSmart · Sydney, Australia, 2023 - Present",
       jobDescription1:
-        "<li>Workshops on Financial Modelling</li><li>Financial Modelling online courses</li>",
+        "<li>Workshops on Financial Modelling and Excel for Finance Professionals</li><li>Financial Modelling online courses</li><li>Excel MasterClass for Finance Professionals online course",
       jobTitle2: "Senior Financial Analyst - Group CFO Office",
       jobCompany2: "Challenger Limited · Sydney, Australia, 2021 - Present",
       jobDescription2:
@@ -138,6 +139,7 @@ document.addEventListener("DOMContentLoaded", function () {
       contactDescription:
         'If you would like to get in touch, please reach out via email at <a href="mailto:tuyethanh19@gmail.com">tuyethanh19@gmail.com</a>',
       fmCourse: "Financial Modelling course",
+      excelCourse: "Excel MasterClass For Finance Professionals",
     },
   };
 
@@ -213,6 +215,8 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("contact-description").innerHTML =
       content[lang].contactDescription;
     document.getElementById("fm-course").innerHTML = content[lang].fmCourse;
+    document.getElementById("excel-course").innerHTML =
+      content[lang].excelCourse;
   }
 
   viLink.addEventListener("click", function () {
