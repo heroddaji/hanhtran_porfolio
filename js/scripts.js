@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     vi: {
       name: "Hạnh Trần",
       title:
-        "Chuyên viên Tài chính Cao cấp tại Văn phòng CFO - Challenger Group Australia<br>Certified Master Anaplanner<br>Microsoft Office Specialist Excel Expert<br>Ứng viên CFA Level II<br>Thạc sĩ Kinh Doanh Quốc Tế",
+        "Finance Manager tại Văn phòng CFO - Challenger Group Australia<br>Certified Master Anaplanner<br>Microsoft Office Specialist Excel Expert<br>Ứng viên CFA Level II<br>Thạc sĩ Kinh Doanh Quốc Tế",
       aboutTitle: "Về tôi",
       aboutText:
         "Tôi có 10 năm kinh nghiệm trong việc xây dựng và kiểm tra các mô hình tài chính và báo cáo phân tích tài chính, báo cáo kinh doanh, mô hình định giá bảo hiểm và quản lý quỹ, thẩm định M&A và chiến lược công ty.<br> Tôi thành thạo Excel nâng cao, Power Query, Power BI, và là Microsoft Excel Expert và Master Anaplanner được công nhận. <br>Bên cạnh công việc chuyên môn chính, tôi còn tổ chức các buổi hội thảo và giảng dạy các khoá học, chương trình liên quan đến bộ môn Mô hình Tài chính và Lập kế hoạch tài chính và Excel trong doanh nghiệp. <br>Có thể làm việc độc lập hoặc cùng nhóm, có động lực cao và tinh thần tích cực, với tư duy phản biện và chú ý đến chi tiết là những gì mô tả tốt nhất về tôi.",
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
       jobCompany1: "EdooSmart · Sydney, Úc, 2023 - nay",
       jobDescription1:
         "<li>Tổ chức các hội thảo về lý thuyết và thực hành Mô hình Tài chính và Kỹ năng Excel</li><li>Giảng dạy các khóa học trực tuyến về bộ môn Mô hình Tài chính và Kỹ năng Excel cho nghề Tài chính</li>",
-      jobTitle2: "Chuyên viên Tài chính Cao Cấp - Văn phòng CFO Tập đoàn",
+      jobTitle2: "Finance Manager - Văn phòng CFO Tập đoàn",
       jobCompany2:
         "Tập đoàn Đầu tư Challenger Group Limited · Sydney, Úc, 2021 - nay",
       jobDescription2:
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
     en: {
       name: "Hanh Tran",
       title:
-        "Senior Financial Analyst at CFO Office, Challenger Group Australia<br>Certified Master Anaplanner<br>Microsoft Office Specialist Excel Expert<br>CFA Level II Candidate<br>Master of Arts in International Business",
+        "Finance Manager at CFO Office, Challenger Group Australia<br>Certified Master Anaplanner<br>Microsoft Office Specialist Excel Expert<br>CFA Level II Candidate<br>Master of Arts in International Business",
       aboutTitle: "About Me",
       aboutText:
         "I have 10-year experience in building and auditing financial models and analysis, actuarial models and fund management models, business intelligent, M&A due diligence and corporate strategy. <br>I am an advanced Excel user, proficient in Power Query, Power BI, and a Microsoft Office Specialist Excel Expert and Certified Master Anaplanner.<br> Beside my daywork, I am passionate in sharing and training in financial modelling and spreadsheet skills, conducting webinars and collaborating in training courses.<br>A motivated independent person yet a good team player, highly critical mind with a can-do attitude and an eye for details are what best to describe me.",
@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
       jobCompany1: "EdooSmart · Sydney, Australia, 2023 - Present",
       jobDescription1:
         "<li>Workshops on Financial Modelling and Excel for Finance Professionals</li><li>Financial Modelling online courses</li><li>Excel MasterClass for Finance Professionals online course",
-      jobTitle2: "Senior Financial Analyst - Group CFO Office",
+      jobTitle2: "Finance Manager - Group CFO Office",
       jobCompany2: "Challenger Limited · Sydney, Australia, 2021 - Present",
       jobDescription2:
         "<li>Responsible for the detailed analysis and financial modelling of the Balance Sheet and P&L of the Life Company, Group and Projects </li><li>Performing and maintaining group financial models on Anaplan platform</li><li>Preparation of investment asset analysis, funding and margin analysis, responses on ad-hoc requests</li>",
