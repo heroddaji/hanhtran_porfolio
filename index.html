@@ -3,86 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hanh T Tran - Financial Modeler</title>
+    <title>Hanh Tran - Financial Modeler</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/design.css?v=2" />
   </head>
 
   <body>
-    <div class="container">
-      <div class="cover-photo">
-        <div class="col">
-          <div class="row">
-            <img
-              class="background-image"
-              src="images/background.jpeg"
-              alt="Background Image"
-            />
-          </div>
-          <div class="row">
-            <div class="col">
-              <img
-                class="profile-image"
-                src="images/avatar.jpeg"
-                alt="Financial Modeler"
-              />
-            </div>
-            <div class="col text-end profile-btns">
-              <a
-                href="https://www.linkedin.com/in/hanhttuyettran/"
-                target="_blank"
-                type="button"
-                class="btn btn-outline-primary btn-sm"
-              >
-                <!-- <a href="https://www.linkedin.com/in/hanhttuyettran/"></a> -->
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="blue"
-                  class="bi bi-linkedin"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
-                  />
-                </svg>
-              </a>
-
-              <div
-                class="btn-group btn-group-sm"
-                role="group"
-                aria-label="Basic example"
-              >
-                <button
-                  type="button"
-                  class="btn btn-outline-primary"
-                  id="vi-link"
-                >
-                  VI
-                </button>
-                <button
-                  type="button"
-                  class="btn btn-outline-primary"
-                  id="en-link"
-                >
-                  EN
-                </button>
-              </div>
-            </div>
-          </div>
+    <nav class="topnav">
+      <div class="topnav-inner">
+        <a class="brand" href="#about" id="brand-name">Hanh Tran</a>
+        <div class="tabs" role="tablist">
+          <a href="#about" class="tab" data-tab="about" data-i18n="navAbout">About Me</a>
+          <a href="#courses" class="tab" data-tab="courses" data-i18n="navCourses">Courses &amp; Webinars</a>
+          <a href="#resources" class="tab" data-tab="resources" data-i18n="navResources">Resources</a>
+          <a href="#consulting" class="tab" data-tab="consulting" data-i18n="navConsulting">Consulting Services</a>
+          <a href="#contact-us" class="tab" data-tab="contact-us" data-i18n="navContact">Contact</a>
+        </div>
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button type="button" id="vi-link">VI</button>
+          <button type="button" id="en-link">EN</button>
         </div>
       </div>
+    </nav>
 
-      <div class="profile-info">
-        <h1 id="name">Hanh T Tran</h1>
-        <h6 id="title">Senior Financial Modeler & Analyst</h6>
-      </div>
+    <div class="container">
+      <section class="tab-panel" id="panel-about">
+      <header class="hero">
+        <div class="hero-cover">
+          <img
+            class="background-image"
+            src="images/background.jpeg"
+            alt=""
+          />
+        </div>
+        <div class="hero-body">
+          <img
+            class="profile-image"
+            src="images/avatar.jpeg"
+            alt="Hanh Tran"
+          />
+          <div class="hero-text">
+            <h1 id="name">Hanh Tran</h1>
+            <p id="title" class="hero-title">Senior Financial Modeler &amp; Analyst</p>
+          </div>
+        </div>
+      </header>
 
       <!-- About Section -->
       <div class="section-card">
@@ -109,83 +86,12 @@
         </div>
 
         <!-- Fullscreen Modal -->
-        <div id="modal" class="modal">
+        <div id="modal" class="image-modal">
           <span class="close">&times;</span>
           <img id="modal-image" src="" alt="Fullscreen view" />
         </div>
       </div>
 
-      <!-- Activity Section -->
-      <div class="section-card">
-        <h2 class="section-title" id="activities-title">Experience</h2>
-
-        <!-- 2ND COURSE -->
-        <div class="experience-item">
-          <div class="row">
-            <div class="col-2 text-center">
-              <div class="gallery">
-                <img class="logo" src="images/excel_course.jpeg" />
-              </div>
-            </div>
-            <div class="col">
-              <ul>
-                <li>
-                  <a
-                    href="https://edoosmart.com/excel-masterclass-for-professionals/"
-                    target="_blank"
-                    id="excel-course"
-                    >Excel MasterClass For Finance Professionals</a
-                  >
-                </li>
-              </ul>
-              <ul id="activities-excel-course-description"></ul>
-            </div>
-          </div>
-        </div>
-
-        <!-- 1ST COURSE -->
-        <div class="experience-item">
-          <div class="row">
-            <div class="col-2 text-center">
-              <div class="gallery">
-                <img class="logo" src="images/financial_modelling_course.png" />
-              </div>
-            </div>
-            <div class="col">
-              <ul>
-                <li>
-                  <a
-                    href="https://edoosmart.com/financial-modelling/"
-                    target="_blank"
-                    id="fm-course"
-                    >Financial Modelling course</a
-                  >
-                </li>
-              </ul>
-              <ul id="activities-fm-course-description"></ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Project Section -->
-      <!--
-        <div class="section-card">  
-            <h2 class="section-title" id="project-title">Các Dự Án</h2>   
- 
-            <div class="project-item">
-                <div class="row">
-                    <div class="col-2 text-center">
-                        <img class="logo"
-                            src="https://media.licdn.com/dms/image/v2/D560BAQFH5Ig2Mxo4gg/company-logo_100_100/company-logo_100_100/0/1691651655670/edoosmart_logo?e=1744848000&v=beta&t=BNQKUQs8WdaWxOb1SkzBYTH6bnjkLAIOwFlXBSJJh-A">
-                    </div>
-                    <div class="col">
-                        <ul id="project-description"></ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    -->
       <!-- Experience Section -->
       <div class="section-card">
         <h2 class="section-title" id="experience-title">Experience</h2>
@@ -312,11 +218,11 @@
 
           <!-- Add more experience items here -->
         </div>
-        <div class="row align-items-center">
+        <div class="see-more-wrap">
           <button
             type="button"
             id="see-more-btn"
-            class="btn btn-outline-primary"
+            class="see-more-btn"
             onclick="toggleExperience()"
           >
             See More
@@ -360,6 +266,7 @@
       <!-- Skills Section -->
       <div class="section-card">
         <h2 class="section-title">Skills</h2>
+        <div class="skills">
         <span class="skill-tag">Financial Modeling</span>
         <span class="skill-tag">Budgeting & Forecasting</span>
         <span class="skill-tag">Financial Analysis</span>
@@ -369,12 +276,121 @@
         <span class="skill-tag">Excel Expert</span>
         <span class="skill-tag">Power BI</span>
         <span class="skill-tag">Power Query</span>
+        </div>
       </div>
 
+      </section>
+
+      <section class="tab-panel" id="panel-courses">
+      <!-- Activity Section -->
+      <div class="section-card">
+        <h2 class="section-title" id="activities-title">Experience</h2>
+
+        <!-- 2ND COURSE -->
+        <div class="experience-item">
+          <div class="row">
+            <div class="col-2 text-center">
+              <div class="gallery">
+                <img class="logo" src="images/excel_course.jpeg" />
+              </div>
+            </div>
+            <div class="col">
+              <ul>
+                <li>
+                  <a
+                    href="https://edoosmart.com/excel-masterclass-for-professionals/"
+                    target="_blank"
+                    id="excel-course"
+                    >Excel MasterClass For Finance Professionals</a
+                  >
+                </li>
+              </ul>
+              <ul id="activities-excel-course-description"></ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 1ST COURSE -->
+        <div class="experience-item">
+          <div class="row">
+            <div class="col-2 text-center">
+              <div class="gallery">
+                <img class="logo" src="images/financial_modelling_course.png" />
+              </div>
+            </div>
+            <div class="col">
+              <ul>
+                <li>
+                  <a
+                    href="https://edoosmart.com/financial-modelling/"
+                    target="_blank"
+                    id="fm-course"
+                    >Financial Modelling course</a
+                  >
+                </li>
+              </ul>
+              <ul id="activities-fm-course-description"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </section>
+
+      <section class="tab-panel" id="panel-resources">
+      <div class="section-card">
+        <h2 class="section-title" data-i18n="resourcesTitle">Resources</h2>
+        <div class="coming-soon">
+          <h3 data-i18n="booksTitle">Books</h3>
+          <p data-i18n="comingSoon">Coming soon.</p>
+        </div>
+        <div class="coming-soon">
+          <h3 data-i18n="templatesTitle">Templates</h3>
+          <p data-i18n="comingSoon">Coming soon.</p>
+        </div>
+      </div>
+      </section>
+
+      <section class="tab-panel" id="panel-consulting">
+      <div class="section-card">
+        <h2 class="section-title" data-i18n="consultingTitle">Consulting Services</h2>
+        <div class="coming-soon">
+          <h3 data-i18n="servicesTitle">Services</h3>
+          <p data-i18n="comingSoon">Coming soon.</p>
+        </div>
+        <div class="coming-soon">
+          <h3 data-i18n="projectsTitle">Past Projects</h3>
+          <p data-i18n="comingSoon">Coming soon.</p>
+        </div>
+      </div>
+      </section>
+
+      <section class="tab-panel" id="panel-contact-us">
       <div class="section-card">
         <h2 class="section-title" id="contact"></h2>
         <p id="contact-description"></p>
+        <a
+          href="https://www.linkedin.com/in/hanhttuyettran/"
+          target="_blank"
+          rel="noopener"
+          class="btn-linkedin"
+        >
+          <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-linkedin"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+                  />
+                </svg>
+          <span data-i18n="linkedinCta">Connect on LinkedIn</span>
+        </a>
       </div>
+      </section>
     </div>
 
     <script src="js/scripts.js" defer></script>

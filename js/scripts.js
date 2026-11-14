@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
       excelCourse: "Khoá học Excel MasterClass cho Chuyên viên Tài chính",
     },
     en: {
-      name: "Hanh T Tran",
+      name: "Hanh Tran",
       title:
         "Finance Manager at CFO Office, Challenger Group Australia<br>Certified Master Anaplanner<br>Microsoft Office Specialist Excel Expert<br>CFA Level II Candidate<br>Master of Arts in International Business",
       aboutTitle: "About Me",
@@ -143,7 +143,65 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   };
 
+  const ui = {
+    vi: {
+      navAbout: "Về tôi",
+      navCourses: "Khoá học & Webinar",
+      navResources: "Tài liệu",
+      navConsulting: "Dịch vụ Tư vấn",
+      navContact: "Liên hệ",
+      resourcesTitle: "Tài liệu",
+      booksTitle: "Sách",
+      templatesTitle: "Mẫu biểu",
+      consultingTitle: "Dịch vụ Tư vấn",
+      servicesTitle: "Dịch vụ",
+      projectsTitle: "Dự án đã thực hiện",
+      comingSoon: "Sắp ra mắt.",
+      linkedinCta: "Kết nối trên LinkedIn",
+    },
+    en: {
+      navAbout: "About Me",
+      navCourses: "Courses & Webinars",
+      navResources: "Resources",
+      navConsulting: "Consulting Services",
+      navContact: "Contact",
+      resourcesTitle: "Resources",
+      booksTitle: "Books",
+      templatesTitle: "Templates",
+      consultingTitle: "Consulting Services",
+      servicesTitle: "Services",
+      projectsTitle: "Past Projects",
+      comingSoon: "Coming soon.",
+      linkedinCta: "Connect on LinkedIn",
+    },
+  };
+
+  // Tabs
+  const tabs = document.querySelectorAll(".tab");
+  const panels = document.querySelectorAll(".tab-panel");
+  function showTab() {
+    const id = location.hash.slice(1);
+    const name = document.getElementById("panel-" + id) ? id : "about";
+    panels.forEach((p) => p.classList.toggle("active", p.id === "panel-" + name));
+    tabs.forEach((t) => {
+      const on = t.dataset.tab === name;
+      t.classList.toggle("active", on);
+      t.setAttribute("aria-selected", on);
+      if (on) t.scrollIntoView({ block: "nearest", inline: "nearest" });
+    });
+    window.scrollTo(0, 0);
+  }
+  window.addEventListener("hashchange", showTab);
+  showTab();
+
   function setLanguage(lang) {
+    document.documentElement.lang = lang;
+    document.querySelectorAll("[data-i18n]").forEach((el) => {
+      el.textContent = ui[lang][el.dataset.i18n];
+    });
+    document.getElementById("brand-name").innerHTML = content[lang].name;
+    viLink.classList.toggle("active", lang === "vi");
+    enLink.classList.toggle("active", lang === "en");
     document.getElementById("name").innerHTML = content[lang].name;
     document.getElementById("title").innerHTML = content[lang].title;
     document.getElementById("about-title").innerHTML = content[lang].aboutTitle;
