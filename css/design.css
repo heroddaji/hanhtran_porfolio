@@ -17,7 +17,6 @@
   --grad: linear-gradient(120deg, #8a3a12 0%, #d9692b 100%);
   --glow-1: rgba(217, 105, 43, 0.1);
   --glow-2: rgba(138, 58, 18, 0.07);
-  --hero-overlay: linear-gradient(120deg, rgba(74, 37, 17, 0.85), rgba(180, 83, 26, 0.55));
   --ring: #e9a06b;
   --tag-bg: #fbefe6;
   --tag-text: #8a3a12;
@@ -76,8 +75,9 @@ body {
   color: #fff;
 }
 
+/* Show the cover photo as-is, with no colour layer */
 .hero-cover::after {
-  background: var(--hero-overlay);
+  display: none;
 }
 .profile-image {
   border: 0;
