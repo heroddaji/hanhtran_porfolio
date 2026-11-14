@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
       excelCourse: "Khoá học Excel MasterClass cho Chuyên viên Tài chính",
     },
     en: {
-      name: "Hanh Tran",
+      name: "Hanh T Tran",
       title:
         "Finance Manager at CFO Office, Challenger Group Australia<br>Certified Master Anaplanner<br>Microsoft Office Specialist Excel Expert<br>CFA Level II Candidate<br>Master of Arts in International Business",
       aboutTitle: "About Me",
