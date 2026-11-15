@@ -135,3 +135,54 @@ body {
   border-color: var(--tag-border);
   background: var(--accent-soft);
 }
+
+/* ---------- Courses & Webinars ---------- */
+.course-link {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 17px;
+  color: var(--ink);
+  margin-bottom: 2px;
+}
+.course-link:hover {
+  color: var(--navy-2);
+}
+.course-cta {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--navy-2);
+}
+.subsection-title {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--navy-2);
+  margin: 8px 0 12px;
+}
+.coming-soon + .subsection-title {
+  margin-top: 28px;
+}
+.webinar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.webinar-list li {
+  position: relative;
+  padding: 12px 0 12px 20px;
+  border-top: 1px solid var(--line);
+}
+.webinar-list li:first-child {
+  border-top: 0;
+}
+.webinar-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 21px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--grad);
+}

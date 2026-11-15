@@ -157,6 +157,12 @@ document.addEventListener("DOMContentLoaded", function () {
       servicesTitle: "Dịch vụ",
       projectsTitle: "Dự án đã thực hiện",
       comingSoon: "Sắp ra mắt.",
+      coursesTitle: "Khoá học",
+      viewCourse: "Xem khoá học",
+      webinarsTitle: "Webinar",
+      upcomingTitle: "Sắp diễn ra",
+      upcomingText: "Hãy quay lại đây để cập nhật các buổi webinar sắp tới.",
+      pastWebinarsTitle: "Webinar đã tổ chức",
       linkedinCta: "Kết nối trên LinkedIn",
     },
     en: {
@@ -172,6 +178,12 @@ document.addEventListener("DOMContentLoaded", function () {
       servicesTitle: "Services",
       projectsTitle: "Past Projects",
       comingSoon: "Coming soon.",
+      coursesTitle: "Courses",
+      viewCourse: "View course",
+      webinarsTitle: "Webinars",
+      upcomingTitle: "Coming Soon",
+      upcomingText: "Check back this space for coming webinars.",
+      pastWebinarsTitle: "Past Webinars",
       linkedinCta: "Connect on LinkedIn",
     },
   };
@@ -206,12 +218,9 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("title").innerHTML = content[lang].title;
     document.getElementById("about-title").innerHTML = content[lang].aboutTitle;
     document.getElementById("about-text").innerHTML = content[lang].aboutText;
-    document.getElementById("activities-title").innerHTML =
-      content[lang].activitiesTitle;
-    document.getElementById("activities-fm-course-description").innerHTML =
+    document.getElementById("past-webinars").innerHTML =
+      content[lang].activitiesExcelCourseDescription +
       content[lang].activitiesFmCourseDescription;
-    document.getElementById("activities-excel-course-description").innerHTML =
-      content[lang].activitiesExcelCourseDescription;
     //document.getElementById('project-title').innerHTML = content[lang].projectTitle;
     //document.getElementById('project-description').innerHTML = content[lang].projectDescription;
     document.getElementById("experience-title").innerHTML =
