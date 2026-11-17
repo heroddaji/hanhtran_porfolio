@@ -335,3 +335,42 @@ a.offer-title:hover {
   background: var(--tag-bg);
   border: 1px solid var(--tag-border);
 }
+
+/* ---------- Brand + slogan ---------- */
+.brand-wrap {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+  min-width: 0;
+}
+.brand-wrap .brand {
+  display: inline-block;
+  align-self: flex-start;
+}
+.brand-slogan {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+  margin-top: 3px;
+  white-space: nowrap;
+}
+.brand-wrap:hover .brand-slogan {
+  color: var(--navy-2);
+}
+@media (max-width: 860px) {
+  /* On phones/tablets the slogan gets its own full-width line under the name */
+  .brand-wrap {
+    display: contents;
+  }
+  .brand-wrap .brand {
+    flex: 1;
+    align-self: center;
+  }
+  .brand-slogan {
+    order: 2;
+    flex: 0 0 100%;
+    margin-top: 0;
+    font-size: 13px;
+  }
+}
