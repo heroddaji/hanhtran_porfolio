@@ -71,6 +71,69 @@ document.addEventListener("DOMContentLoaded", function () {
       contactDescription:
         'Vui lòng liên hệ hợp tác với tôi qua email: <a href="mailto:tuyethanh19@gmail.com">tuyethanh19@gmail.com</a>',
       fmCourse: "Mô hình Tài chính",
+      // Accomplished Projects (Consultation tab): edit title, client and text freely
+      projects: [
+        {
+          demo: "images/demo-placeholder.svg",
+          title: "Mô hình Lập ngân sách và Dự báo Ba Báo cáo Tài chính Toàn diện trên nền tảng Anaplan",
+          client: "Tập đoàn Bảo hiểm và Quản lý Đầu tư, Sydney, Úc",
+          text: "Xây dựng các mô hình lập ngân sách và dự báo phức tạp cho một doanh nghiệp bảo hiểm và đầu tư trên nền tảng Anaplan, kết nối công tác lập kế hoạch giữa các đơn vị kinh doanh.",
+        },
+        {
+          demo: "images/demo-placeholder.svg",
+          title: "Kiểm tra và Thử nghiệm Mô hình Định giá Bảo hiểm",
+          client: "Dự án Nâng cấp Công nghệ – Công ty Bảo hiểm Nhân thọ, Úc",
+          text: "Kiểm tra và thử nghiệm các mô hình định giá bảo hiểm trong dự án nâng cấp công nghệ, đảm bảo kết quả luôn chính xác trong suốt quá trình chuyển đổi.",
+        },
+        {
+          demo: "images/demo-placeholder.svg",
+          title: "Mô hình Tài chính cho Chiến lược Doanh nghiệp",
+          client: "Tập đoàn Dược phẩm, Seoul, Hàn Quốc",
+          text: "Xây dựng các mô hình tài chính và phân tích chuyên biệt nhằm đánh giá các phương án chiến lược và hỗ trợ chiến lược doanh nghiệp của tập đoàn trong ngành dược phẩm và hoạt động kinh doanh toàn cầu.",
+        },
+        {
+          demo: "images/demo-placeholder.svg",
+          title: "Giải pháp Toàn diện Từ Logistic đến Tài chính",
+          client: "Trang trại Trứng thuộc Quỹ Đầu tư Tư nhân – New South Wales, Úc",
+          text: "Thiết kế giải pháp toàn diện kết nối dữ liệu logistics của trang trại với kế hoạch tài chính, mang đến cho nhóm đầu tư một góc nhìn thống nhất và đáng tin cậy về vận hành và ngân sách.",
+        },
+        {
+          demo: "images/demo-placeholder.svg",
+          title: "Mô hình Tài chính và Phân tích",
+          client: "Công ty Giáo dục – New Zealand và Singapore",
+          text: "Xây dựng mô hình ba báo cáo tài chính và phân tích nhằm hỗ trợ lập kế hoạch và ra quyết định cho hoạt động trong ngành giáo dục tại hai quốc gia.",
+        },
+        {
+          demo: "images/demo-placeholder.svg",
+          title: "Mô hình Tài chính và Phân tích",
+          client: "Trường Đại học – Melbourne, Úc",
+          text: "Phát triển mô hình ba báo cáo tài chính và phân tích nhằm hỗ trợ công tác lập ngân sách và hoạch định chiến lược của trường đại học.",
+        },
+        {
+          demo: "images/demo-placeholder.svg",
+          title: "Tích hợp Dữ liệu vào Hệ thống Tài chính",
+          client: "Công ty NDIS – Brisbane, Úc",
+          text: "Tích hợp dữ liệu vận hành vào hệ thống tài chính, giảm thao tác thủ công và nâng cao độ chính xác của báo cáo.",
+        },
+        {
+          demo: "images/demo-placeholder.svg",
+          title: "Mô hình Tài chính cho Dự án Hạ tầng",
+          client: "Dự án Hạ tầng – Sydney, Úc",
+          text: "Xây dựng và rà soát mô hình tài chính cho một dự án hạ tầng lớn, bao gồm nguồn vốn, dòng tiền và lợi nhuận.",
+        },
+        {
+          demo: "images/demo-placeholder.svg",
+          title: "Mô hình Tài chính cho Khu nghỉ dưỡng (Holiday Park)",
+          client: "Công ty Khu nghỉ dưỡng (Holiday Park) – Úc",
+          text: "Lập mô hình và phân tích tài chính nhằm hỗ trợ lập kế hoạch và quyết định đầu tư cho các khu nghỉ dưỡng của công ty.",
+        },
+        {
+          demo: "images/demo-placeholder.svg",
+          title: "Giải pháp Toàn diện cho Luồng Dữ liệu và Lập kế hoạch Tài chính",
+          client: "Công ty Thương mại Điện tử – Đà Nẵng, Việt Nam",
+          text: "Thiết lập luồng dữ liệu tự động từ các kênh bán hàng vào mô hình lập kế hoạch tài chính, giúp báo cáo nhanh hơn và đáng tin cậy hơn.",
+        },
+      ],
       excelCourse: "Khoá học Excel MasterClass cho Chuyên viên Tài chính",
     },
     en: {
@@ -139,6 +202,69 @@ document.addEventListener("DOMContentLoaded", function () {
       contactDescription:
         'If you would like to get in touch, please reach out via email at <a href="mailto:tuyethanh19@gmail.com">tuyethanh19@gmail.com</a>',
       fmCourse: "Financial Modelling",
+      // Accomplished Projects (Consultation tab): edit title, client and text freely
+      projects: [
+        {
+          demo: "images/demo-placeholder.svg",
+          title: "Complete 3-Statement Budgeting and Forecasting Model on Anaplan",
+          client: "Insurance and Investment Management Group, Sydney, Australia",
+          text: "Built complex budgeting and forecasting models for an insurance and investment business on Anaplan platform, connecting planning across business units.",
+        },
+        {
+          demo: "images/demo-placeholder.svg",
+          title: "Actuarial Model Audit and Testing",
+          client: "Technology Uplift Project – Life Insurance Company, Australia",
+          text: "Audited and tested actuarial models during a technology uplift project, making sure results stayed accurate through the change.",
+        },
+        {
+          demo: "images/demo-placeholder.svg",
+          title: "Financial Modelling for Corporate Strategy",
+          client: "Pharmaceutical Group, Seoul, Korea",
+          text: "Built financial models and ad-hoc analysis to evaluate strategic options and support the group's corporate strategy in pharmaceuticals industry and global business.",
+        },
+        {
+          demo: "images/demo-placeholder.svg",
+          title: "Complete Solution for Financial Planning and Logistics Data Flow",
+          client: "PE-backed Egg Farm – New South Wales, Australia",
+          text: "Designed an end-to-end solution linking farm logistics data to the financial plan, giving management one reliable view of operations and budget.",
+        },
+        {
+          demo: "images/demo-placeholder.svg",
+          title: "Financial Modelling and Analysis",
+          client: "Education Company – New Zealand and Singapore",
+          text: "Built 3-statement financial models and analysis to support planning and decision-making across education industry operations in two countries.",
+        },
+        {
+          demo: "images/demo-placeholder.svg",
+          title: "Financial Modelling and Analysis",
+          client: "University – Melbourne, Australia",
+          text: "Developed 3-statement financial models and analysis to support the university's budgeting and strategic planning.",
+        },
+        {
+          demo: "images/demo-placeholder.svg",
+          title: "Data Integration into Finance System",
+          client: "NDIS Company – Brisbane, Australia",
+          text: "Integrated operational data into the finance system, reducing manual work and improving the accuracy of reporting.",
+        },
+        {
+          demo: "images/demo-placeholder.svg",
+          title: "Infrastructure Project Financial Modelling",
+          client: "Infrastructure Project – Sydney, Australia",
+          text: "Built and reviewed the financial model for a major infrastructure project, covering funding, cash flows and returns.",
+        },
+        {
+          demo: "images/demo-placeholder.svg",
+          title: "Holiday Park Financial Modelling",
+          client: "Holiday Park Company – Australia",
+          text: "Financial modelling and analysis to support planning and investment decisions across the company's holiday parks.",
+        },
+        {
+          demo: "images/demo-placeholder.svg",
+          title: "Complete Solution for Data Flow and Financial Planning",
+          client: "E-commerce Company – Da Nang, Vietnam",
+          text: "Set up automated data flows from sales channels into a financial planning model for faster, more reliable reporting.",
+        },
+      ],
       excelCourse: "Excel MasterClass For Finance Professionals",
     },
   };
@@ -159,7 +285,7 @@ document.addEventListener("DOMContentLoaded", function () {
       servicesTitle: "Tôi có thể hỗ trợ",
       projectsTitle: "Các dự án đã thực hiện",
       offerFmTitle: "Tư vấn Xây dựng Mô hình Tài chính",
-      offerFmText: "Cùng đội ngũ của bạn xây dựng, rà soát và kiểm tra mô hình tài chính cho ngân sách, định giá và quyết định đầu tư.",
+      offerFmText: "Cùng đội ngũ của bạn xây dựng, rà soát và kiểm tra mô hình tài chính, bao gồm mô hình tích hợp ba báo cáo tài chính, cho ngân sách, định giá và quyết định đầu tư.",
       offerFpaTitle: "Tư vấn Lập kế hoạch và Phân tích Tài chính",
       offerFpaText: "Cùng đội ngũ của bạn thiết lập quy trình lập ngân sách, dự báo và báo cáo trên Anaplan, Excel và Power BI.",
       offerTransformTitle: "Tư vấn Chuyển đổi Quy trình Tài chính",
@@ -170,6 +296,7 @@ document.addEventListener("DOMContentLoaded", function () {
       comingSoon: "Sắp ra mắt.",
       coursesTitle: "Khoá học",
       viewCourse: "Xem khoá học",
+      showDemo: "Xem Demo",
       slogan: "Mô hình chuẩn. Kỹ năng sắc. Quyết định đúng.",
       excelAiTitle: "Khoá học Excel MasterClass ứng dụng AI cho Chuyên viên Tài chính",
       excelAiText: "Kết hợp công cụ AI với Excel để làm sạch dữ liệu, viết công thức, phân tích và lập báo cáo nhanh hơn.",
@@ -199,7 +326,7 @@ document.addEventListener("DOMContentLoaded", function () {
       servicesTitle: "How I Can Help",
       projectsTitle: "Accomplished Projects",
       offerFmTitle: "Financial Modelling Consultation",
-      offerFmText: "Working with your team to build, review and audit financial models for budgeting, valuation and investment decisions.",
+      offerFmText: "Working with your team to build, review and audit financial models, including 3-statement integrated models, for budgeting, valuation and investment decisions.",
       offerFpaTitle: "Financial Planning and Analysis Consultation",
       offerFpaText: "Working with your team to set up budgeting, forecasting and reporting processes in Anaplan, Excel and Power BI.",
       offerTransformTitle: "Finance Process Transformation Consultation",
@@ -210,6 +337,7 @@ document.addEventListener("DOMContentLoaded", function () {
       comingSoon: "Coming soon.",
       coursesTitle: "Courses",
       viewCourse: "View course",
+      showDemo: "Show Demo",
       slogan: "Sound Models. Sharp Modellers. Smart Decisions.",
       excelAiTitle: "Excel MasterClass with AI for Finance Professionals",
       excelAiText: "Use AI tools alongside Excel to clean data, write formulas, analyse results and build reports faster.",
@@ -256,6 +384,17 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("title").innerHTML = content[lang].title;
     document.getElementById("about-title").innerHTML = content[lang].aboutTitle;
     document.getElementById("about-text").innerHTML = content[lang].aboutText;
+    document.getElementById("projects-grid").innerHTML = content[lang].projects
+      .map(
+        (p) =>
+          `<div class="offer-card project-card"><div class="offer-body">` +
+          `<h4 class="offer-title">${p.title}</h4>` +
+          `<div class="project-client">${p.client}</div>` +
+          `<p class="offer-text">${p.text}</p>` +
+          `<button type="button" class="course-cta demo-btn" data-demo="${p.demo}" data-alt="${p.title}">` +
+          `${ui[lang].showDemo} &rarr;</button></div></div>`
+      )
+      .join("");
     document.getElementById("past-webinars").innerHTML =
       content[lang].activitiesExcelCourseDescription +
       content[lang].activitiesFmCourseDescription;
@@ -372,4 +511,13 @@ modal.addEventListener("click", (e) => {
   if (e.target === modal) {
     modal.style.display = "none";
   }
+});
+
+// "Show Demo" on Accomplished Projects opens the project's screenshot full screen
+document.getElementById("projects-grid").addEventListener("click", (e) => {
+  const btn = e.target.closest(".demo-btn");
+  if (!btn) return;
+  modalImg.src = btn.dataset.demo;
+  modalImg.alt = btn.dataset.alt;
+  modal.style.display = "flex";
 });

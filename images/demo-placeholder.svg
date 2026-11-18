@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" font-family="Inter, Arial, sans-serif">
+  <!-- Placeholder demo screenshot. Replace with a real screenshot later. -->
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#8a3a12"/>
+      <stop offset="1" stop-color="#d9692b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="#faf6f2"/>
+
+  <!-- Title bar + ribbon -->
+  <rect width="1200" height="44" fill="url(#g)"/>
+  <text x="24" y="28" font-size="15" font-weight="600" fill="#fff">Financial Model.xlsx</text>
+  <text x="1176" y="28" font-size="13" fill="#fbefe6" text-anchor="end">Demo – placeholder</text>
+  <rect y="44" width="1200" height="40" fill="#fbefe6"/>
+  <g font-size="13" fill="#8a3a12" font-weight="500">
+    <text x="24" y="69">Home</text><text x="90" y="69">Insert</text><text x="158" y="69">Formulas</text>
+    <text x="246" y="69">Data</text><text x="304" y="69">Review</text><text x="376" y="69">View</text>
+  </g>
+
+  <!-- Formula bar -->
+  <rect y="84" width="1200" height="32" fill="#fff" stroke="#efe5dd"/>
+  <text x="24" y="105" font-size="13" fill="#6f5d52">D8</text>
+  <text x="80" y="105" font-size="13" fill="#2b1d14">=SUM(D5:D7)</text>
+
+  <!-- Grid -->
+  <g>
+    <rect x="0" y="116" width="660" height="604" fill="#fff"/>
+    <rect x="0" y="116" width="660" height="28" fill="#f4ebe3"/>
+    <rect x="0" y="116" width="40" height="604" fill="#f4ebe3"/>
+    <g font-size="12" fill="#6f5d52" text-anchor="middle">
+      <text x="140" y="135">B</text><text x="290" y="135">C</text><text x="410" y="135">D</text><text x="530" y="135">E</text>
+      <text x="20" y="167">1</text><text x="20" y="199">2</text><text x="20" y="231">3</text><text x="20" y="263">4</text>
+      <text x="20" y="295">5</text><text x="20" y="327">6</text><text x="20" y="359">7</text><text x="20" y="391">8</text>
+      <text x="20" y="423">9</text><text x="20" y="455">10</text><text x="20" y="487">11</text><text x="20" y="519">12</text>
+    </g>
+    <g stroke="#efe5dd">
+      <line x1="40" y1="176" x2="660" y2="176"/><line x1="40" y1="208" x2="660" y2="208"/><line x1="40" y1="240" x2="660" y2="240"/>
+      <line x1="40" y1="272" x2="660" y2="272"/><line x1="40" y1="304" x2="660" y2="304"/><line x1="40" y1="336" x2="660" y2="336"/>
+      <line x1="40" y1="368" x2="660" y2="368"/><line x1="40" y1="400" x2="660" y2="400"/><line x1="40" y1="432" x2="660" y2="432"/>
+      <line x1="40" y1="464" x2="660" y2="464"/><line x1="40" y1="496" x2="660" y2="496"/><line x1="40" y1="528" x2="660" y2="528"/>
+      <line x1="240" y1="144" x2="240" y2="720"/><line x1="350" y1="144" x2="350" y2="720"/><line x1="470" y1="144" x2="470" y2="720"/><line x1="590" y1="144" x2="590" y2="720"/>
+    </g>
+    <!-- header row -->
+    <rect x="40" y="208" width="620" height="32" fill="#8a3a12"/>
+    <g font-size="13" font-weight="600" fill="#fff">
+      <text x="52" y="229">Income Statement ($'000)</text>
+      <text x="340" y="229" text-anchor="end">FY24</text><text x="460" y="229" text-anchor="end">FY25</text>
+      <text x="580" y="229" text-anchor="end">FY26</text>
+    </g>
+    <text x="52" y="166" font-size="16" font-weight="700" fill="#4a2511">Three-Statement Model – Summary</text>
+    <g font-size="13" fill="#2b1d14">
+      <text x="52" y="261">Revenue</text><text x="340" y="261" text-anchor="end">12,450</text><text x="460" y="261" text-anchor="end">14,320</text><text x="580" y="261" text-anchor="end">16,180</text>
+      <text x="52" y="293">Cost of sales</text><text x="340" y="293" text-anchor="end">(7,220)</text><text x="460" y="293" text-anchor="end">(8,160)</text><text x="580" y="293" text-anchor="end">(9,060)</text>
+      <text x="52" y="325">Operating expenses</text><text x="340" y="325" text-anchor="end">(2,890)</text><text x="460" y="325" text-anchor="end">(3,150)</text><text x="580" y="325" text-anchor="end">(3,400)</text>
+      <text x="52" y="357">Depreciation</text><text x="340" y="357" text-anchor="end">(610)</text><text x="460" y="357" text-anchor="end">(650)</text><text x="580" y="357" text-anchor="end">(700)</text>
+    </g>
+    <rect x="40" y="368" width="620" height="32" fill="#fbefe6"/>
+    <rect x="350" y="368" width="120" height="32" fill="none" stroke="#d9692b" stroke-width="2"/>
+    <g font-size="13" font-weight="700" fill="#8a3a12">
+      <text x="52" y="389">EBIT</text><text x="340" y="389" text-anchor="end">1,730</text><text x="460" y="389" text-anchor="end">2,360</text><text x="580" y="389" text-anchor="end">3,020</text>
+    </g>
+    <g font-size="13" fill="#2b1d14">
+      <text x="52" y="421">Interest</text><text x="340" y="421" text-anchor="end">(240)</text><text x="460" y="421" text-anchor="end">(220)</text><text x="580" y="421" text-anchor="end">(190)</text>
+      <text x="52" y="453">Tax</text><text x="340" y="453" text-anchor="end">(447)</text><text x="460" y="453" text-anchor="end">(642)</text><text x="580" y="453" text-anchor="end">(849)</text>
+    </g>
+    <rect x="40" y="464" width="620" height="32" fill="#fbefe6"/>
+    <g font-size="13" font-weight="700" fill="#8a3a12">
+      <text x="52" y="485">Net profit</text><text x="340" y="485" text-anchor="end">1,043</text><text x="460" y="485" text-anchor="end">1,498</text><text x="580" y="485" text-anchor="end">1,981</text>
+    </g>
+  </g>
+
+  <!-- Chart panel -->
+  <rect x="690" y="136" width="486" height="380" rx="12" fill="#fff" stroke="#efe5dd"/>
+  <text x="714" y="172" font-size="15" font-weight="700" fill="#4a2511">Revenue and Net Profit</text>
+  <line x1="730" y1="470" x2="1150" y2="470" stroke="#efe5dd" stroke-width="2"/>
+  <rect x="770" y="302" width="60" height="168" rx="4" fill="#e9a06b"/>
+  <rect x="900" y="276" width="60" height="194" rx="4" fill="#d9692b"/>
+  <rect x="1030" y="252" width="60" height="218" rx="4" fill="#b4531a"/>
+  <polyline points="800,420 930,398 1060,374" fill="none" stroke="#4a2511" stroke-width="3"/>
+  <circle cx="800" cy="420" r="5" fill="#4a2511"/><circle cx="930" cy="398" r="5" fill="#4a2511"/><circle cx="1060" cy="374" r="5" fill="#4a2511"/>
+  <g font-size="12" fill="#6f5d52" text-anchor="middle">
+    <text x="800" y="492">FY24</text><text x="930" y="492">FY25</text><text x="1060" y="492">FY26</text>
+  </g>
+
+  <!-- KPI tiles -->
+  <g font-size="12" fill="#6f5d52">
+    <rect x="690" y="540" width="150" height="80" rx="10" fill="#fbefe6" stroke="#f1d3bd"/>
+    <text x="706" y="566">Revenue growth</text><text x="706" y="600" font-size="22" font-weight="700" fill="#8a3a12">13%</text>
+    <rect x="858" y="540" width="150" height="80" rx="10" fill="#fbefe6" stroke="#f1d3bd"/>
+    <text x="874" y="566">EBIT margin</text><text x="874" y="600" font-size="22" font-weight="700" fill="#8a3a12">18.7%</text>
+    <rect x="1026" y="540" width="150" height="80" rx="10" fill="#fbefe6" stroke="#f1d3bd"/>
+    <text x="1042" y="566">Balance check</text><text x="1042" y="600" font-size="22" font-weight="700" fill="#8a3a12">OK ✓</text>
+  </g>
+
+  <!-- Sheet tabs -->
+  <rect y="684" width="1200" height="36" fill="#f4ebe3"/>
+  <rect x="40" y="684" width="110" height="36" fill="#fff"/>
+  <g font-size="12" fill="#6f5d52">
+    <text x="56" y="707" fill="#8a3a12" font-weight="600">Summary</text>
+    <text x="170" y="707">Inputs</text><text x="230" y="707">P&amp;L</text><text x="280" y="707">Balance Sheet</text><text x="384" y="707">Cash Flow</text>
+  </g>
+</svg>

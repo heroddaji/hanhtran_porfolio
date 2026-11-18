@@ -358,8 +358,39 @@ a.offer-title:hover {
 .brand-wrap:hover .brand-slogan {
   color: var(--navy-2);
 }
-@media (max-width: 860px) {
+/* Desktop: a thin divider and breathing room between the slogan and the tabs */
+@media (min-width: 1001px) {
+  .brand-wrap {
+    flex-shrink: 0;
+    padding-right: 28px;
+    border-right: 1px solid var(--tag-border);
+  }
+  .brand-slogan {
+    font-size: 13px;
+  }
+  .topnav .tab {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 1000px) {
   /* On phones/tablets the slogan gets its own full-width line under the name */
+  /* Wrap the tabs onto their own row (same as the 860px layout in styles.css) */
+  .topnav-inner {
+    height: auto;
+    flex-wrap: wrap;
+    gap: 0 12px;
+    padding-top: 10px;
+  }
+  .tabs {
+    order: 3;
+    flex: 0 0 calc(100% + 32px);
+    justify-content: flex-start;
+    overflow-x: auto;
+    scrollbar-width: none;
+    height: 44px;
+    margin: 4px -16px 0;
+    padding: 0 8px;
+  }
   .brand-wrap {
     display: contents;
   }
@@ -373,4 +404,44 @@ a.offer-title:hover {
     margin-top: 0;
     font-size: 13px;
   }
+}
+/* Keep every consultation card the same height, row to row */
+@media (min-width: 721px) {
+  .offer-grid:not(.offer-stack) {
+    grid-auto-rows: 1fr;
+  }
+}
+
+
+/* ---------- Accomplished Projects ---------- */
+.project-card .offer-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.project-card .offer-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.project-client {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--navy-2);
+  margin: -2px 0 8px;
+}
+.demo-btn {
+  align-self: flex-start;
+  margin-top: auto;
+  padding: 10px 0 0;
+  border: 0;
+  background: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+.demo-btn:hover {
+  color: var(--accent);
+}
+.image-modal img[src$=".svg"] {
+  width: min(92vw, 1200px);
+  background: #fff;
 }
